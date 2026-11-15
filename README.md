@@ -2,7 +2,7 @@
 
 A free kit for running a small company on Claude, so that every open loop keeps moving and people still press Send themselves.
 
-Version 0.3.
+Version 0.4.
 
 ## What it is
 
@@ -70,15 +70,16 @@ This kit is an independent project. It is not made, endorsed or supported by Ant
 
 ## License
 
-The kit is free to use, change and share, including at work and for commercial purposes, as long as you keep the credit and share your changes the same way.
+The kit is free to read, learn from, use and adapt. Selling it, or making money from it for other people, needs a commercial license.
 
-- Everything except the scripts (the learning chapters, templates, prompts, skills and this README) is licensed under [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/). The full text is in `LICENSE`.
-- The scripts in `tools/` are licensed under the [MIT License](https://opensource.org/license/mit). The full text is in `tools/LICENSE`.
+- Everything except the scripts and the writing-cleanup skill (the learning chapters, templates, prompts and this README) is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/). The full text is in `LICENSE`.
+- One added permission from the author: you may use the kit to run your own organization's internal work, including at a for-profit company. Setting it up for your own team is not "commercial" in this sense.
+- What needs a commercial license: selling the kit or anything built from it, bundling it into a paid product, or charging other people or companies to set it up or run it for them. For a commercial license, open an issue titled "Commercial license" at https://github.com/ellipses-os/kit/issues .
+- The scripts in `tools/` are licensed under the [MIT License](https://opensource.org/license/mit) (full text in `tools/LICENSE`).
+- `skills/writing-cleanup/SKILL.md` adapts Wikipedia text and stays under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), as its header says.
 
-Using the kit inside your company, including filling in the templates, doesn't require you to publish anything. Share-alike only applies when you give a changed version to people outside your company or post it publicly: then it goes out under CC BY-SA 4.0 too, with the credit.
+If you share a changed version, keep the credit and share it under the same license. A credit line like this is enough:
 
-To credit the kit, a line like this is enough:
+> Based on the Ellipses OS kit by Lawrence Johnson (https://github.com/ellipses-os/kit), CC BY-NC-SA 4.0.
 
-> Based on the Ellipses OS kit by Lawrence Johnson (https://github.com/ellipses-os/kit), CC BY-SA 4.0.
-
-Details, and the third-party material the kit draws on, are in `NOTICE`.
+Details are in `NOTICE`.

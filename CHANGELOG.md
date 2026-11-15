@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.4 (2026-11-15)
+
+- License: the kit is now CC BY-NC-SA 4.0, with an added permission to use it for your own organization's internal work, including at a for-profit company. Selling it, bundling it into a paid product, or charging others to set it up needs a commercial license. The scripts stay MIT, and the writing-cleanup skill stays CC BY-SA 4.0. See `README.md` and `NOTICE`.
+
 ## 0.3 (2026-11-15)
 
 - License chosen: CC BY-SA 4.0 for everything except the scripts, MIT for `tools/`. `LICENSE` now holds the full CC BY-SA 4.0 text, `tools/LICENSE` the MIT text, and `README.md` and `NOTICE` say how to credit the kit.

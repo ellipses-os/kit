@@ -1,18 +1,30 @@
 Ellipses OS kit
-Version 0.3
+Version 0.4
 Copyright 2026 Lawrence Johnson
 
 License
 
-Everything in this kit except the tools/ folder is licensed under the Creative
-Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0). The full
-text is in LICENSE and at https://creativecommons.org/licenses/by-sa/4.0/legalcode .
+Everything in this kit except tools/ and skills/writing-cleanup/SKILL.md is
+licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+International License (CC BY-NC-SA 4.0). The full text is in LICENSE and at
+https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode .
+
+Additional permission from the licensor: you may use the kit to run your own
+organization's internal work, including at a for-profit company.
+
+Commercial license: selling the kit or anything built from it, bundling it into
+a paid product, or charging others to set it up or run it for them requires a
+separate commercial license from the licensor. To ask for one, open an issue
+titled "Commercial license" at https://github.com/ellipses-os/kit/issues .
 
 The scripts in tools/ are licensed under the MIT License. The full text is in
 tools/LICENSE.
 
+skills/writing-cleanup/SKILL.md stays under CC BY-SA 4.0 (see Third-party
+material below).
+
 How to credit: "Based on the Ellipses OS kit by Lawrence Johnson
-(https://github.com/ellipses-os/kit), CC BY-SA 4.0." Say whether you changed it.
+(https://github.com/ellipses-os/kit), CC BY-NC-SA 4.0." Say whether you changed it.
 
 Warranty
 
