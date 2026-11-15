@@ -1,0 +1,23 @@
+Machine Kit
+Version 0.1
+
+This kit is provided as is, without warranty of any kind, express or implied, and
+with no promise of support. You build and run it in your own accounts and are
+responsible for what your scheduled tasks and your Claude do on your behalf.
+
+This kit is an independent project. It is not made, endorsed or supported by
+Anthropic. Claude is a product of Anthropic. Other product names mentioned
+(for example Asana, Google Workspace, Microsoft 365) belong to their owners and
+are used only to describe compatibility.
+
+Third-party material
+
+skills/writing-cleanup/SKILL.md adapts ideas from the Wikipedia advice page
+"Wikipedia:Signs of AI writing" by WikiProject AI Cleanup and the Wikipedia
+contributors, https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing ,
+available under the Creative Commons Attribution-ShareAlike 4.0 International
+License, https://creativecommons.org/licenses/by-sa/4.0/ . The skill is written in
+new words, lists its changes in its header, and is itself licensed under CC BY-SA 4.0.
+
+Links to Anthropic's help center in README.md and elsewhere point to pages
+checked on 2026-11-15. Those pages belong to Anthropic and may change.
