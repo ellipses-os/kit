@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.2 (2026-11-15)
+
+- One loop, one tracker, in full: a new procedure file, `configure/LOOPS.template.md` (append-only open-loops document, line formats, what closes a loop, what a person can say, a one-time backlog cleanup and an end-of-week audit). The company rules, the brief, debrief, agendas and refresh templates and the self-check now read it.
+- Old setup text: the company rules can quote and override outdated lines in people's pasted setup, so nobody has to re-paste.
+- Team rituals (optional): `learn/11-team-rituals.md`, with `tasks/lane-board.md` (a weekly board of project lanes, blocked first, built from lane status comments), `tasks/monthly-all-hands.md` (a monthly page from live data, numbers only as exceptions, managers write their own sections) and `tasks/pilot-review.md` (measures after each pilot meeting and a final run that applies a decision rule written in advance).
+- Publish or hold: `learn/12-publish-or-hold.md` and `tasks/reference-refresh.md`, a weekday run that publishes facts it can prove at the source and holds everything else on a branch for the page's owner.
+- Meetings: an approved-notetakers line, and a reminder that platform transcript defaults may not reach older recurring meetings.
+- Clock: runs check that the previous run finished, since an outage can end a run with nothing produced while the scheduler shows success; people, not chats, start and pause scheduled tasks.
+- `learn/10-what-broke.md`: new rows for the failures above and a "Sites and pages" table.
+- `ellipses/`: checked against ellipsesapp.ai again.
+
 ## 0.1 (2026-11-15)
 
 First version, for early readers before public release.

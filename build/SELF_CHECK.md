@@ -9,6 +9,7 @@ Check my setup for {COMPANY_NAME}'s operating system. Read only until I approve 
 Check each item, then show me one table: item, result (OK, FIX or ASK), what you found, the fix. Times from a clock tool.
 
 1. Company rules. Search by exact title "{COMPANY_RULES_FILE}" (never "contains"). Exactly one copy whose parent is {RULES_FOLDER}? Its version line? Any copy outside that folder that I can read (an archive copy is FIX: tell me to ask {OWNER_NAME} to restrict it)?
+1a. Open-loops procedure. Is "{LOOPS_FILE}" in {RULES_FOLDER} (exact title)? Does my open loops document end with an OPEN line from my last debrief, and do its count and IDs agree?
 2. My project. Does my work project's instructions start with the company block (read the rules first, Claude drafts and I send, receipts, writing cleanup)? Are my personal rules under it, with my email as the only recipient of my runs?
 3. Connectors. Is each of my core connectors connected and answering a simple read? Is any owner-zone connector connected on my account ({OWNER_ZONE_CONNECTORS})? If so, FIX: tell me to disconnect it.
 4. Skills. Do I have receipts-gate, writing-cleanup and our brand skill?

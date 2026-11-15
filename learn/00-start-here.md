@@ -18,6 +18,8 @@ Each person has their own Claude, connected to their own mail, calendar, files a
 8. `08-privacy-zones.md` shared, private and owner
 9. `09-training.md` getting a team onto it
 10. `10-what-broke.md` the failures behind the rules
+11. `11-team-rituals.md` the weekly lane board, the monthly all-hands, and pilots
+12. `12-publish-or-hold.md` keeping a reference page current on its own
 
 ## Three promises the system makes
 

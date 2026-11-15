@@ -13,13 +13,13 @@ You stay in the chat for the whole build. Claude asks before it creates anything
 
 ---
 
-You are helping me build an operating system for my company on Claude, using the kit attached to this project (or this message). Read these kit files first, in full: `learn/00-start-here.md` to `learn/10-what-broke.md`, every file in `configure/`, `tasks/` and `skills/`, and `build/PER_PERSON_SETUP.md` and `build/SELF_CHECK.md`. If you can't find them, stop and tell me.
+You are helping me build an operating system for my company on Claude, using the kit attached to this project (or this message). Read these kit files first, in full: `learn/00-start-here.md` to `learn/12-publish-or-hold.md`, every file in `configure/`, `tasks/` and `skills/`, and `build/PER_PERSON_SETUP.md` and `build/SELF_CHECK.md`. If you can't find them, stop and tell me.
 
 GROUND RULES FOR THIS CHAT
 - Never send an email or post a message to anyone, including me. Everything for another person is a file or a draft I send myself.
 - Ask before you create, change or move anything in my mail, files, task board, calendar or scheduled tasks. Show me what you'll create, then wait for my yes. Batch related items into one approval.
 - Never delete anything. If something should go, tell me and I'll do it.
-- Read only on every data source (store, accounting, payroll, marketing tools). You may read to learn their shape; you never write to them.
+- Read only on every data source (billing, CRM, accounting, payroll, marketing tools). You may read to learn their shape; you never write to them.
 - When you don't know something about my company, ask. Never invent a name, number, date or tool.
 - Keep a build log as you go: a document called "Build log" in my own storage, one dated line per step, so I can stop and resume.
 - Plain, short sentences. Ask at most five questions at a time, with choices where you can.
@@ -35,24 +35,24 @@ PHASE 2: THE INTERVIEW
 Ask in five rounds. After each round, play back what you heard in a short table and let me correct it before moving on.
 A. The company: name, email domain, home time zone, what we do in one line, the owner (me) and who will be the one editor of the company rules, mission and values if we have them written down (quoted exactly; optional).
 B. The people: everyone who will use the system (first name, role, work email, time zone, manager), who organizes which recurring meetings, anyone who prefers one ask per message, anyone who has left and might still show up on invites, outside partners people mention often (role and first name only).
-C. The tools: mail, file storage, documents, task board (and its projects and sections, which you may read), team chat, meeting transcript sources in order of trust, and for each number we repeat (sales, orders, subscribers, cash, stock, whatever applies) which tool owns it and which tools only cross-check it. Which tools are owner-zone (payroll, HR, accounting) and which of their read tools a run truly needs.
-D. The rhythm: our workday days and hours, the weekly team meeting (day, time, who runs it), and which runs each person gets. Default: everyone gets morning brief, evening debrief and midday refresh; meeting organizers also get agendas; I get numbers and send check. Propose a company clock from `learn/07-company-clock.md` with each person in their own minute, and let me change it.
+C. The tools: mail, file storage, documents, task board (and its projects and sections, which you may read), team chat, meeting transcript sources in order of trust, and for each number we repeat (sales, bookings, active accounts, pipeline, cash, capacity, whatever applies) which tool owns it and which tools only cross-check it. Which tools are owner-zone (payroll, HR, accounting) and which of their read tools a run truly needs.
+D. The rhythm: our workday days and hours, the weekly team meeting (day, time, who runs it), and which runs each person gets. Default: everyone gets morning brief, evening debrief and midday refresh; meeting organizers also get agendas; I get numbers and send check. Propose a company clock from `learn/07-company-clock.md` with each person in their own minute, and let me change it. Then ask whether we want any of the optional team pieces from `learn/11-team-rituals.md` and `learn/12-publish-or-hold.md` (a weekly lane board, a monthly all-hands page, a self-refreshing reference page), and recommend starting without them until the daily runs are settled.
 E. The limits: what must never be automated (for example anything that commits money, messages to certain partners, anything legal or HR), topics that never go in a shared document, who owns each outside relationship, our email signature format, and any words we use for our meetings, targets or reports.
 
 PHASE 3: FILL THE TEMPLATES
 From my answers, fill:
-1. The company rules from `configure/COMPANY_RULES.template.md`, with the data source map from `configure/DATA_SOURCE_MAP.template.md` as section 1. Delete any section or line that doesn't fit us, and say which you deleted and why. Every rule keeps a one-line "Why". Leave nothing in curly braces.
+1. The company rules from `configure/COMPANY_RULES.template.md`, with the data source map from `configure/DATA_SOURCE_MAP.template.md` as section 1, and the open-loops procedure from `configure/LOOPS.template.md`. Since we're starting fresh, delete the "Older setup text" line unless I tell you old setup text exists. Delete any section or line that doesn't fit us, and say which you deleted and why. Every rule keeps a one-line "Why". Leave nothing in curly braces.
 2. The brand file from `configure/BRAND.template.md`. If I have no brand guide, ask for two colors and a font, and keep it minimal.
 3. The organization instructions from `configure/ORG_INSTRUCTIONS.template.md`. Count the characters with code and keep it under 3,000, with room to spare.
 4. My project instructions and personal rules from `configure/PROJECT_INSTRUCTIONS.template.md` and `configure/PERSONAL_RULES.template.md`.
 5. My task prompts from `tasks/`, one per run I get, with my slots and names filled in. Keep every LIMITS block exactly.
 6. The brand skill from `skills/brand-template/`, renamed for us.
-Ask me whether my Claude can publish private pages; if not, set agendas, notes and brief pages to documents instead, using the fallback lines in the templates. Show me each file in full (as files I can open, not pasted into the chat) and wait for my approval or edits. Then run the writing-cleanup skill over the company rules and the brand file without changing any fact.
+Ask me whether my Claude can publish private pages; if not, set agendas, notes and brief pages to documents instead, using the fallback lines in the templates. Leave the optional team pieces (company rules section 12 and their task templates) out unless I chose them in round D. Show me each file in full (as files I can open, not pasted into the chat) and wait for my approval or edits. Then run the writing-cleanup skill over the company rules and the brand file without changing any fact.
 
 PHASE 4: THE SHARED FOLDER AND MY DOCUMENTS
 With my approval, in my file storage:
 - Create the shared folder with Rules/, Rules/archive/, Agendas/ and Additions/ (and Numbers/ if I want shared numbers).
-- Save the company rules and the brand file into Rules/ under their exact titles.
+- Save the company rules, the open-loops procedure and the brand file into Rules/ under their exact titles.
 - Create my own documents: runs log, receipts log, open loops, working notes, and an outputs folder.
 - Then test the lookup: search for the company rules by exact title, confirm the parent folder, read the version line back to me.
 If your connector can't create folders or files (some file connectors need an admin to turn on write tools first), give me each file to upload and the folders to make by hand, and wait. Then give me the sharing steps you can't do yourself, as a short checklist: who gets edit access to the shared folder, that Rules/archive/ is mine only, and that the folder is not shared outside the company.

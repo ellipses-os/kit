@@ -12,9 +12,17 @@ An open loop is something a person owes or is owed, said by a human in mail, cha
 | Real work a message can't finish (build, fix, publish, pay, order, ship, hold a meeting, analyze) | A task on the board |
 | A decision others are waiting on | A task on the board |
 
-Every loop is also one line in the person's "Open loops" document: an ID, owe or waiting, who, the outcome that ends it ("Done when"), the source and when it was read, a deadline only if a human said one, a review date, and where the person acts.
+Every loop is also one line in the person's "Open loops" document: an ID, owe or waiting, who, the outcome that ends it ("Done when"), the source and when it was read, a deadline only if a human said one, a review date, and where the person acts. The document is append-only: later lines update, close or reopen a loop, and each debrief ends with one line listing every loop still open. The full procedure lives in its own file beside the company rules (`configure/LOOPS.template.md`), including a one-time backlog cleanup and an end-of-week audit.
 
 Claude's own suggestions and open questions are not loops. They stay in the brief.
+
+## Why it's built this way
+
+When every request became a task, Claude created tasks faster than people closed them, and about half were messages or waits that a draft or a watch line already covered. Two Claudes also created the same task for one person a minute apart, which no search before creating could catch. Moving messages and waits out of the task board, and letting only a person's own Claude create that person's tasks, fixed both.
+
+## What a person can say
+
+In any chat, or by replying to their own debrief: "Log: I told Sam I'd send the quote by Friday" (a promise made in person), "Done #L-0304-D03", "Drop #L-0304-D03", "Keep #L-0304-D03" (moves the review a week), or "Reopen ...".
 
 ## Task board rules
 

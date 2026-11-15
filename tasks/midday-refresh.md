@@ -4,7 +4,7 @@ WHO AND WHY
 {PERSON_NAME} ({PERSON_EMAIL}) wants the whole day as of this minute: complete on its own, so it can replace the morning brief. This run only reads. It records no loops, closes nothing and creates no tasks.
 
 RULES FIRST
-Search with title = '{COMPANY_RULES_FILE}' (exact) and read the copy whose parent folder is {RULES_FOLDER}; never an archived copy. Then {PERSON_NAME}'s own rules. Times from a clock tool. Append "Midday Refresh started {ISO}; rules {COMPANY_RULES_FILE} {version}; prompt {PROMPT_VERSION}" to "{RUNS_LOG}".
+Search with title = '{COMPANY_RULES_FILE}' (exact) and read the copy whose parent folder is {RULES_FOLDER}; never an archived copy. Read {LOOPS_FILE} the same way. Then {PERSON_NAME}'s own rules. Times from a clock tool. Append "Midday Refresh started {ISO}; rules {COMPANY_RULES_FILE} {version}; prompt {PROMPT_VERSION}" to "{RUNS_LOG}".
 
 WINDOW
 Same start as the morning brief (the last finished debrief from an earlier day) to now.

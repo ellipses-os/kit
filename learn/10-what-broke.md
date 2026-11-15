@@ -23,6 +23,9 @@ Every rule in this kit came from a failure. These are the general lessons, witho
 | A clock change moved one person's debrief out of their workday | Debriefs use each person's own time zone name |
 | Run logs carried times ahead of the real clock | Every stamp comes from a clock tool |
 | A task created through a different screen ran without a model set | Check every new task's settings after creating it |
+| A service outage ended a run in seconds, and the scheduler still showed success | The next run checks for the previous run's finish line and says when it's missing |
+| A chat couldn't fire or pause a scheduled task | A person presses Run now and pauses tasks; plan the handover for it |
+| Rapid automated searches tripped a site's rate limit | Space requests out, cap them per run, and stop the moment a check appears; never try to get around it |
 | A search of a downloaded document found nothing because the text came back encoded | Read documents with a tool that returns plain text; "not found" in undecoded text is no answer |
 
 ## Drafts and sending
@@ -49,6 +52,8 @@ Every rule in this kit came from a failure. These are the general lessons, witho
 | A brief listed a task as overdue that was finished days earlier | Overdue lists come from a fresh query of incomplete tasks in the same run |
 | A chat tried to complete a task a run had already closed, and doubled the evidence | Read a task's state before touching it |
 | Comments saying "draft ready" reached people with no context | No "draft ready" comments; codes stay in the owner's runs log |
+| People's pasted setup text still told their runs to make a task for every request | The rules quote each old line and override it; nobody re-pastes |
+| Runs were refused when completing tasks, and the block came from a permission check, not the task board | Refused completions go to LOOKS DONE; a rules file can't override a safety check |
 | A hold on assigning teammates parked their work on the sender | Turn assignment rules on deliberately, with a one-time handover |
 | Proven work stayed open because the proof was worded differently | A run closes its own person's task on any linkable evidence, and lists it |
 
@@ -59,6 +64,8 @@ Every rule in this kit came from a failure. These are the general lessons, witho
 | One-to-one files sat in a folder the whole team could read | Two-person meetings never go in the shared folder |
 | Two write-ups of one meeting made the same task twice | Action items come from one verbatim transcript only |
 | A notetaker joined late and missed the start | Use the next transcript source for the part it missed, and say so |
+| The video platform's new transcript defaults didn't reach recurring meetings created before they were set | Organizers turn transcription on in each recurring series; the rules fix the order of records |
+| Unapproved notetaker apps joined meetings from several people's accounts | One short list of approved notetakers |
 | Summaries were quoted as if they were what people said | Quotes and tasks come from verbatim transcripts; summaries are named as summaries |
 | "Most senior attendee builds the agenda" left two Claudes building | A named stand-in rule, and a check for an existing agenda before building |
 | A connector meant for the owner alone went on the whole team's list | Lock owner-zone connectors at the tool level and say so in the rules |
@@ -70,11 +77,22 @@ Every rule in this kit came from a failure. These are the general lessons, witho
 | Wrong claims reached a person, and none was arithmetic: a deal's terms taken from a message, "pushed live" repeated without checking, a run reporting it posted when it had only drafted, a rule quoted from memory | Receipts with five classes, the instruction rule and a blind gate |
 | A disagreement went to the owner before anyone asked the system | Escalation order: ask the system first |
 | A checker read an archived rules file and passed a stale rule | The checker follows the same exact-title, parent-folder lookup |
+| A figure for a team page was counted twice and the gate caught the difference | Every figure on a shared page goes through the gate, even ones that look obvious |
+
+## Sites and pages
+
+| What broke | What changed |
+|---|---|
+| Large sites can exceed what a chat can upload | Keep sites in a repository and deploy from it |
+| A reference page went stale between monthly edits | A weekday run publishes proven facts and holds the rest (`12-publish-or-hold.md`) |
+| A monthly meeting deck kept showing an old figure and covered numbers nobody acted on | A monthly page built from live data, numbers only as exceptions (`11-team-rituals.md`) |
 
 ## Not yet solved in our build
 
 Name these in your own rules if they bite you.
 
 - Long-running chats can still drift from the rules; restart long work in a fresh chat with a handoff note.
+- Times written by runs can still run a few minutes ahead of the clock, even when told to read a clock; the gate compares stamps with the real time.
+- A promise made in person is invisible until someone logs it.
 - Some chat systems don't expose direct messages to Claude; a brief that claims chat coverage should say what it could and couldn't read.
 - Members' task prompts lag the current templates; the rules file overrides them, but a quarterly refresh is cleaner.

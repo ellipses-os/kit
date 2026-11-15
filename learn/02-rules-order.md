@@ -32,6 +32,7 @@ These habits came from real failures (see `10-what-broke.md`):
 - Install before archive. Upload the new file under a temporary name, check it, then archive the old one and rename the new one. The rules file is never missing, not even for a minute.
 - Read by exact title, check the folder. A run finds the rules with an exact-title search and confirms the parent folder before reading. Never a "contains" search and never a saved file ID: both can open an archived copy.
 - A change isn't done until a run shows it. Every run logs the version it read. When the new version appears in the runs log, the change took effect.
+- Override old setup lines by name. People's pasted instructions and task prompts lag the rules. When a rule replaces an old setup line, the rules file quotes the old line and says it no longer applies, and runs report any line they overrode. Nobody has to re-paste their setup.
 - Every rule says why. A one-line reason under each rule, with the date. People follow rules they understand, and a later editor can tell which rules are safe to drop.
 
 ## Keep it short

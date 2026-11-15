@@ -26,7 +26,7 @@ On a team plan, connectors the owner adds may become available to the whole orga
 - Where your admin settings allow it, block every tool on an owner-zone connector except the few read tools a run needs.
 - Write that limit into the company rules, so a chat that can see the connector knows it may not use it.
 - Never add owner-zone connectors to a teammate's setup or scheduled task.
-- Plan connectors before creating a scheduled task. In our build, a task kept the connector list it was created with, so adding or removing one meant recreating the task. Check whether that's still true for you.
+- Plan connectors before creating a scheduled task. In the original build, a task kept the connector list it was created with, so adding or removing one meant recreating the task. Check whether that's still true for you.
 
 ## Offboarding
 

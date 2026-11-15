@@ -11,6 +11,10 @@ One template per recurring run. Each is a complete, standalone prompt: a schedul
 | `evening-debrief.md` | Everyone | Weekdays at the end of the day |
 | `send-check.md` | Anyone who drafts a lot | Twice a day |
 | `weekly-update.md` | The owner of the weekly team meeting | Once a week |
+| `lane-board.md` | The owner of the weekly team meeting, if you use a lane board | The evening before and the morning of |
+| `pilot-review.md` | Whoever runs a ritual pilot | After each pilot meeting, then once at the end |
+| `monthly-all-hands.md` | The all-hands owner | A few business days into the month, and meeting morning |
+| `reference-refresh.md` | The owner of a team reference page kept in a repository | Weekdays |
 
 ## Filling them in
 
@@ -28,7 +32,7 @@ Do not remove these. They are what makes it safe to let a run work unattended.
 
 1. **Email the owner only.** The only recipient of anything a run sends is `{PERSON_EMAIL}`. No To, Cc or Bcc to anyone else.
 2. **Draft for everyone else.** Anything meant for another person is a draft in the owner's mail. Never sent, never posted.
-3. **Read only on data sources.** Never call a write tool on a store, marketplace, ad account, email platform, accounting or payroll system.
+3. **Read only on data sources.** Never call a write tool on a billing system, CRM, ad account, marketing platform, accounting or payroll system.
 4. **Never post to team chat.** Read it; give paste-ready text in the brief instead.
 5. **Never touch someone else's task.** No completing, re-dating, reassigning or editing it.
 6. **Never change scheduled tasks.** No creating, editing, pausing, firing or deleting any scheduled task from inside a run.

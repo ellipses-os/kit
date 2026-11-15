@@ -10,6 +10,7 @@ Templates for every file the system reads. The owner's build (`build/BUILD_THIS_
 | `PROJECT_INSTRUCTIONS.template.md` | The instructions of each person's Claude project | Claude, in the project's settings | Every chat in that project |
 | `ORG_INSTRUCTIONS.template.md` | Organization instructions (under 3,000 characters) | Claude admin settings | Every conversation in the organization |
 | `DATA_SOURCE_MAP.template.md` | Section 1 of the company rules | Inside the company rules | Every run that writes a number |
+| `LOOPS.template.md` | `{LOOPS_FILE}` (for example `LOOPS.md`), the open-loops procedure | The shared Rules folder | Every brief, debrief and agendas run, with the company rules |
 
 ## Placeholders
 
@@ -26,6 +27,7 @@ Every placeholder is in `{CURLY_CAPS}`. The ones used across files:
 | `{RULES_FOLDER}` | The Rules subfolder | Claude Shared/Rules |
 | `{COMPANY_RULES_FILE}` | The company rules file's exact title | COMPANY-RULES.md |
 | `{BRAND_FILE}` | The brand rules file's exact title | BRAND.md |
+| `{LOOPS_FILE}` | The open-loops procedure's exact title | LOOPS.md |
 | `{TASK_BOARD}` | Your task board | Asana |
 | `{MAIL}` | Your mail system | Gmail, Outlook |
 | `{CHAT_TOOL}` | Your team chat | Google Chat, Slack, Teams |

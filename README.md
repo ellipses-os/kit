@@ -2,7 +2,7 @@
 
 A free kit for running a small company on Claude, so that every open loop keeps moving and people still press Send themselves.
 
-Version 0.1. Working name; the final name comes with the public release.
+Version 0.2. Working name; the final name comes with the public release.
 
 ## What it is
 
@@ -12,8 +12,8 @@ The kit has these parts:
 
 | Folder | What's in it |
 |---|---|
-| `learn/` | Short chapters on how the system works and why each rule exists |
-| `configure/` | Templates with `{PLACEHOLDERS}` for your company rules, personal rules, brand rules, project and org instructions, and a data source map |
+| `learn/` | Short chapters on how the system works and why each rule exists, plus optional team rituals (a weekly lane board, a monthly all-hands page, pilots) and a self-refreshing reference page |
+| `configure/` | Templates with `{PLACEHOLDERS}` for your company rules, the open-loops procedure, personal rules, brand rules, project and org instructions, and a data source map |
 | `build/` | The owner's one-paste setup (`BUILD_THIS_FOR_YOUR_ORG.md`), a per-person setup paste, and a self-check paste |
 | `tasks/` and `skills/` | The prompt templates for each scheduled run, and the skills they lean on |
 | `tools/` | A privacy scan to run on your filled-in files before you share them outside the company |
