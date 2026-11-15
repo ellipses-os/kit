@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.3 (2026-11-15)
+
+- License chosen: CC BY-SA 4.0 for everything except the scripts, MIT for `tools/`. `LICENSE` now holds the full CC BY-SA 4.0 text, `tools/LICENSE` the MIT text, and `README.md` and `NOTICE` say how to credit the kit.
+- Name: the kit is now the Ellipses OS kit.
+
 ## 0.2 (2026-11-15)
 
 - One loop, one tracker, in full: a new procedure file, `configure/LOOPS.template.md` (append-only open-loops document, line formats, what closes a loop, what a person can say, a one-time backlog cleanup and an end-of-week audit). The company rules, the brief, debrief, agendas and refresh templates and the self-check now read it.

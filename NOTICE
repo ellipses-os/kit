@@ -1,5 +1,20 @@
-Machine Kit
-Version 0.2
+Ellipses OS kit
+Version 0.3
+Copyright 2026 Lawrence Johnson
+
+License
+
+Everything in this kit except the tools/ folder is licensed under the Creative
+Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0). The full
+text is in LICENSE and at https://creativecommons.org/licenses/by-sa/4.0/legalcode .
+
+The scripts in tools/ are licensed under the MIT License. The full text is in
+tools/LICENSE.
+
+How to credit: "Based on the Ellipses OS kit by Lawrence Johnson
+(https://github.com/ellipses-os/kit), CC BY-SA 4.0." Say whether you changed it.
+
+Warranty
 
 This kit is provided as is, without warranty of any kind, express or implied, and
 with no promise of support. You build and run it in your own accounts and are

@@ -1,8 +1,8 @@
-# Machine Kit
+# Ellipses OS kit
 
 A free kit for running a small company on Claude, so that every open loop keeps moving and people still press Send themselves.
 
-Version 0.2. Working name; the final name comes with the public release.
+Version 0.3.
 
 ## What it is
 
@@ -70,4 +70,15 @@ This kit is an independent project. It is not made, endorsed or supported by Ant
 
 ## License
 
-To be chosen before public release. See `LICENSE` and `NOTICE`.
+The kit is free to use, change and share, including at work and for commercial purposes, as long as you keep the credit and share your changes the same way.
+
+- Everything except the scripts (the learning chapters, templates, prompts, skills and this README) is licensed under [Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/). The full text is in `LICENSE`.
+- The scripts in `tools/` are licensed under the [MIT License](https://opensource.org/license/mit). The full text is in `tools/LICENSE`.
+
+Using the kit inside your company, including filling in the templates, doesn't require you to publish anything. Share-alike only applies when you give a changed version to people outside your company or post it publicly: then it goes out under CC BY-SA 4.0 too, with the credit.
+
+To credit the kit, a line like this is enough:
+
+> Based on the Ellipses OS kit by Lawrence Johnson (https://github.com/ellipses-os/kit), CC BY-SA 4.0.
+
+Details, and the third-party material the kit draws on, are in `NOTICE`.
