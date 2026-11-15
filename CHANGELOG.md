@@ -10,6 +10,6 @@ First version, for early readers before public release.
 - `build/`: the owner's one-paste build, a per-person setup paste, and a self-check paste.
 - `tasks/`: prompt templates for numbers, agendas, morning brief, midday refresh, evening debrief, send check and weekly update, each with the same safety limits.
 - `skills/`: receipts-gate, a brand skill template, and writing-cleanup (CC BY-SA 4.0, adapted from Wikipedia's "Signs of AI writing").
-- `ellipses/`: a short description of the live call co-pilot and a link to its site.
+- `ellipses/`: a short description of the live meeting co-pilot, checked against its public site on Nov 15, 2026, and a link to it.
 - `tools/privacy_scan.py`: a scan for emails, phone numbers, long IDs, money amounts and your own list of names, to run before you share your filled-in files.
 - `LICENSE`: placeholder until a license is chosen.
