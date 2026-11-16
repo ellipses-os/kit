@@ -2,7 +2,7 @@
 
 A free kit for running a small company on Claude, so that every open loop keeps moving and people still press Send themselves.
 
-Version 0.4.
+Version 0.4.1.
 
 ## What it is
 
@@ -74,7 +74,7 @@ The kit is free to read, learn from, use and adapt. Selling it, or making money 
 
 - Everything except the scripts and the writing-cleanup skill (the learning chapters, templates, prompts and this README) is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/). The full text is in `LICENSE`.
 - One added permission from the author: you may use the kit to run your own organization's internal work, including at a for-profit company. Setting it up for your own team is not "commercial" in this sense.
-- What needs a commercial license: selling the kit or anything built from it, bundling it into a paid product, or charging other people or companies to set it up or run it for them. For a commercial license, open an issue titled "Commercial license" at https://github.com/ellipses-os/kit/issues .
+- What needs a commercial license: selling the kit or anything built from it, bundling it into a paid product, or charging other people or companies to set it up or run it for them. For a commercial license, email info@ellipsesapp.ai .
 - The scripts in `tools/` are licensed under the [MIT License](https://opensource.org/license/mit) (full text in `tools/LICENSE`).
 - `skills/writing-cleanup/SKILL.md` adapts Wikipedia text and stays under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), as its header says.
 

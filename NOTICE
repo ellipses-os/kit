@@ -1,5 +1,5 @@
 Ellipses OS kit
-Version 0.4
+Version 0.4.1
 Copyright 2026 Lawrence Johnson
 
 License
@@ -14,8 +14,8 @@ organization's internal work, including at a for-profit company.
 
 Commercial license: selling the kit or anything built from it, bundling it into
 a paid product, or charging others to set it up or run it for them requires a
-separate commercial license from the licensor. To ask for one, open an issue
-titled "Commercial license" at https://github.com/ellipses-os/kit/issues .
+separate commercial license from the licensor. To ask for one, email
+info@ellipsesapp.ai .
 
 The scripts in tools/ are licensed under the MIT License. The full text is in
 tools/LICENSE.
