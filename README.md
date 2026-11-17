@@ -2,7 +2,7 @@
 
 A free kit for running a small company on Claude, so that every open loop keeps moving and people still press Send themselves.
 
-Version 0.4.1.
+Version 0.5.
 
 ## What it is
 
@@ -12,9 +12,9 @@ The kit has these parts:
 
 | Folder | What's in it |
 |---|---|
-| `learn/` | Short chapters on how the system works and why each rule exists, plus optional team rituals (a weekly lane board, a monthly all-hands page, pilots) and a self-refreshing reference page |
+| `learn/` | Short chapters on how the system works and why each rule exists, plus optional team rituals (a weekly lane board, a monthly all-hands page, pilots), a self-refreshing reference page, and a starter question bank for a course |
 | `configure/` | Templates with `{PLACEHOLDERS}` for your company rules, the open-loops procedure, personal rules, brand rules, project and org instructions, and a data source map |
-| `build/` | The owner's one-paste setup (`BUILD_THIS_FOR_YOUR_ORG.md`), a per-person setup paste, and a self-check paste |
+| `build/` | The owner's one-paste setup (`BUILD_THIS_FOR_YOUR_ORG.md`), a per-person setup paste, a self-check paste, a first-week checklist, a paste that sets up your house style (`MAKE_IT_LOOK_GOOD.md`), and a paste that builds a short course for your team (`BUILD_YOUR_COURSE.md`) |
 | `tasks/` and `skills/` | The prompt templates for each scheduled run, and the skills they lean on |
 | `tools/` | A privacy scan to run on your filled-in files before you share them outside the company |
 
@@ -46,8 +46,10 @@ These are estimates from one build, not promises.
 
 1. Read `learn/00-start-here.md` (ten minutes).
 2. Open a new Claude chat in a project, attach this kit, and paste `build/BUILD_THIS_FOR_YOUR_ORG.md`.
-3. Give each teammate the setup paste the build produces for them.
-4. After the first week, have everyone run `build/SELF_CHECK.md`.
+3. Set up your house style with `build/MAKE_IT_LOOK_GOOD.md`, so every brief and page looks like your company from the first run.
+4. Give each teammate the setup paste the build produces for them.
+5. Work through `build/FIRST_WEEK.md`. At the end of the week, have everyone run `build/SELF_CHECK.md`.
+6. The week after, build a short course for your team with `build/BUILD_YOUR_COURSE.md`.
 
 ## Claude features used
 

@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.5 (2026-11-17)
+
+- Training: `build/BUILD_YOUR_COURSE.md`, a paste that turns the chapters and your own company rules into a short course (lessons with scenarios, an "explain it like I'm five" fold, a quiz per lesson, a final check, optional tracking), plus what worked in the original build's course. `learn/questions.md` is a starter bank of 40 questions with answers, reasons and sources.
+- First week: `build/FIRST_WEEK.md`, a day-by-day checklist for the owner after setup, and what helped adoption.
+- House style: `build/MAKE_IT_LOOK_GOOD.md`, how the original build got polished, on-brand pages, briefs and reports from every person's Claude, and a paste that fills your brand file, draws your logo as inline markup, sets roles and builds the brand skill.
+- `README.md` and `learn/09-training.md` point to the new files.
+
 ## 0.4.1 (2026-11-16)
 
 - Commercial license requests now go to info@ellipsesapp.ai.

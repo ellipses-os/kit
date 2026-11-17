@@ -7,9 +7,9 @@ A team adopts the system when each person can explain it in their own words and 
 - One person first. The owner runs the whole system alone for at least a week before anyone else joins. Every rule gets tested on one inbox before it touches the whole team.
 - A pilot teammate. One person, a week, then small waves of three or four.
 - One paste per person. Each person gets a setup paste with their name, their slots and their role filled in (`build/PER_PERSON_SETUP.md`). They paste it, answer a few questions, and their runs exist by the end of the session.
-- Check the first morning. On each person's first morning, confirm their brief arrived. A missing first brief is almost always a setup step, not a bug.
+- Check the first morning. On each person's first morning, confirm their brief arrived. A missing first brief is almost always a setup step, not a bug. `build/FIRST_WEEK.md` has the full first-week checklist.
 - A self-check. `build/SELF_CHECK.md` lets anyone inspect their own setup and repair it with Claude, without waiting for the owner.
-- A short course. Five to ten short lessons, each ending in a few questions, and a final check. Topics: the parts, the rules order, receipts and the three verdicts, the three ways a draft ends, one loop one tracker, privacy zones.
+- A short course. Five to ten short lessons, each ending in a few questions, and a final check. Topics: the parts, the rules order, receipts and the three verdicts, the three ways a draft ends, one loop one tracker, privacy zones. `build/BUILD_YOUR_COURSE.md` builds one from these chapters and your own rules, starting from the question bank in `learn/questions.md`. Start it the week after setup, not during it.
 - Short videos, if you make them, rendered from code. Labels and numbers in a screen recording go stale; scenes built from code can be re-rendered when a rule changes.
 
 ## What to teach first
